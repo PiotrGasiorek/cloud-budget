@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>CloudBudget - cloud budget management for everyone</title>
+</head>
+<body>
+    <header class='header'>
+        <nav class="nav">
+            <img class="nav__logo" src='./assets/imgs/logo.png' alt='Cloud Budget logo'>
+            <div class="nav__items">
+                <a href="/overview" class="nav__items__link">
+                    Overview
+                </a>
+                <a href="#features" class="nav__items__link">
+                    Features
+                </a>
+                <a href="#technology" class="nav__items__link">
+                    Technology
+                </a>
+                <a href="#contact" class="nav__items__link">
+                    Contact
+                </a>
+                <a href="/sign-up" class="nav__items__link">
+                    Sign up
+                </a>
+            </div>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__content__title">CloudBudget</h1>
+            <p class="header__content__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99</p>
+            <a class="header__content__btn">Sign up</a>
+        </div>
+    </header>
+    <main class='main'>
+        <section class="section section--features" id='features'>
+            <div class="section__wrapper">
+                <h2 class="section__header">Features</h2>
+                <div class="section__content">
+                    <div class="cards cards--feature">
+                        <div class="cards__card">
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">Supports All Currencies and Cards</h3>
+                                <p class="cards__card__content__text">We support all popular currencies and is fully customizable to add</p>
+                                <a class="cards__card__content__link" href="/read-more">Read more</a>
+                            </div>
+                            <img class="cards__card__img" src="./assets/imgs/money.jpg" alt="Cash on hands"/>
+                        </div>
+                        <div class="cards__card">
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">Manage your expenses on the go</h3>
+                                <p class="cards__card__content__text">You can access your account from anywhere in the world on any device</p>
+                                <a class="cards__card__content__link" href="/read-more">Read more</a>
+                            </div>
+                            <img class="cards__card__img" src="./assets/imgs/phone.jpg" alt="Person using phone"/>
+                        </div>
+                        <div class="cards__card">
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">Cloud Budget Management Software</h3>
+                                <p class="cards__card__content__text">Our software is made so you can access and manage your budget</p>
+                                <a class="cards__card__content__link" href="/read-more">Read more</a>
+                            </div>
+                            <img class="cards__card__img" src="./assets/imgs/hallway.jpg" alt="Long hallway"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--technology" id='technology'>
+            <div class="section__wrapper">
+                <h2 class="section__header">Technology</h2>
+                <div class="section__content">
+                    <div class="cards cards--feature">
+                        <div class="cards__card">
+                            <img class="cards__card__img" src="./assets/icons/cloud.svg" alt=""/>
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">Cloud Storage</h3>
+                                <p class="cards__card__content__text">Access your account from anywhere in the world on any device</p>
+                            </div>
+                        </div>
+                        <div class="cards__card">
+                            <img class="cards__card__img" src="./assets/icons/shield.svg" alt=""/>
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">Secure</h3>
+                                <p class="cards__card__content__text">All your information is stored on secure cloud servers</p>
+                            </div>
+                        </div>
+                        <div class="cards__card">
+                            <img class="cards__card__img" src="./assets/icons/pdf.svg" alt=""/>
+                            <div class="cards__card__content">
+                                <h3 class="cards__card__content__header">PDF Download</h3>
+                                <p class="cards__card__content__text">Download any of your reports in PDF format</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--contact" id='contact'>
+            <div class="section__wrapper">
+                <div class="section--contact__text">
+                    <h2 class="section__header">Contact</h2>
+                    <p class="section__subheader">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+                </div>
+                <form class="section__form form">
+                    <fieldset class="form__fullname">
+                        <input type="text" class="form__fullname__firstname" placeholder="First Name">
+                        <input type="text" class="form__fullname__lastname" placeholder="Last Name">
+                    </fieldset>
+                    <input type="tel" class="form__phone" placeholder="Phone Number">
+                    <input type="text" class="form__service" placeholder="Select Service">
+                    <button class="form__btn">Submit now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
